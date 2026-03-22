@@ -31,12 +31,14 @@ body {
 .card h1 {
     margin: 0;
     color: var(--primary);
+    text-align: center;
 }
 
 .card h2 {
     color: #30335f;
     font-size: 1.6rem;
     margin-bottom: 0.4rem;
+    text-align: center;
 }
 
 .card img {
@@ -44,13 +46,14 @@ body {
     max-width: 500px;
     border-radius: 10px;
     border: 1px solid #e9ebfb;
-    margin-bottom: 0.8rem;
+    margin: 0 auto 0.8rem; /* centraliza a imagem */
+    display: block;
 }
 
 .recipe-link {
-    display: inline-block;
-    margin-top: 0.4rem;
-    margin-bottom: 0.8rem;
+    display: block; 
+    width: fit-content; 
+    margin: 0.4rem auto 0.8rem auto; 
     text-decoration: none;
     background: var(--primary);
     color: #fff;
